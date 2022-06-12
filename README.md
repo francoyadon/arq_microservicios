@@ -2,7 +2,7 @@
 Arquitectura de microservicios
 
 
-Requests ej7:
+Requests ej7 y 8:
 
 curl localhost:8090/books/62a55d3790f09cbcc62ada82 | jq 
 
