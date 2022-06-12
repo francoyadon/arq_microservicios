@@ -4,9 +4,9 @@ Arquitectura de microservicios
 
 Requests ej7:
 
-curl localhost:8090/books/AA12 | jq 
+curl localhost:8090/books/62a55d3790f09cbcc62ada82 | jq 
 
-curl -X POST 'localhost:8090/books' -H 'Content-Type: application/json' -d '{"name":"mi libro"}'
+curl -X POST 'localhost:8090/books' -H 'Content-Type: application/json' -d '{"name":"mi libro"}'  | jq
 
 
 Db ej8:
